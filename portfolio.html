@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebStudio</title>
+<style>
+</style>
+</head>
+<header class="header_main">
+    <!-- Вміст хедера -->
+</header>
+
+<footer class="footer_main">
+    <!-- Вміст футера -->
+</footer>
+
+<main class="main_home">
+    <!-- Вміст головної сторінки -->
+</main>
+
+<body>
+<div class="studio-container">
+    <div class="studio-item">Елемент 1</div>
+    <div class="studio-item">Елемент 2</div>
+    <div class="studio-item">Елемент 3</div>
+    <!-- Додайте інші елементи студії тут -->
+</div>
+</body>
+</html>
+
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebStudio</title>
+		<link rel="icon" type="image/png" href="./images/favico/favicon.png" />
+		<link rel="shortcut icon" href="./images/favico/favicon.ico" />
+
+		<!-- Modern normalize -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header class="heder__project">
+			<!-- Navigation -->
+			<div class="container header__nav">
+				<nav class="nav">
+					<a class='logo header__logo link' href='/'>
+						Web
+						<span class="header__logo--black">Studio</span>
+					</a>
+					<ul class="nav__list list">
+						<li class="nav__item">
+							<a class='nav__link link' href='/'>Студія</a>
+						</li>
+						<li class="nav__item">
+							<a class='nav__link nav__link--current link' href='/portfolio'>
+								Портфоліо
+							</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link link" href="#contacts">Контакти</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- Contacts -->
+				<ul class="header__contacts list">
+					<li class="contacts__item">
+						<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li>
+						<a href="tel:+380961111111">38 096 111 11 11</a>	
+					</li>
+				</ul>
+							info@devstudio.com
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a class="contacts__link link" href="tel:+380961111111">
+							+38 096 111 11 11
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<!-- Portfolio -->
+			<section class="portfolio__project">
+				<div class="container">
+					<h1 class="visually-hidden">Проєкти</h1>
+					<!-- Filters -->
+					<ul class="project__filter list">
+						<li class="filter__item">
+							<button
+								class="filter__btn button"
+								type="button"
+								data-filter="all"
+							>
+								Усі
+							</button>
+						</li>
+						<li class="filter__item">
+							<button class="filter__btn" type="button" data-filter="web">
+								Веб-сайти
+							</button>
+						</li>
+						<li class="filter__item">
+							<button class="filter__btn" type="button" data-filter="apps">
+								Додатки
+							</button>
+						</li>
+						<li class="filter__item">
+							<button class="filter__btn" type="button" data-filter="design">
+								Дизайн
+							</button>
+						</li>
+						<li class="filter__item">
+							<button class="filter__btn" type="button" data-filter="marketing">
+								Маркетинг
+							</button>
+						</li>
+					</ul>
+					<!-- Projects -->
+					<ul class="project__list card__set list">
+						<li class="project__item card__set-item web">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="https://web-studio-ua.netlify.app/images/portfolio/project_1_dt@1x.jpg"
+											alt="Технокряк"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+								</div>
+								<div class="project__description project__description--pb">
+									<img
+								scr="https://web-studio-ua.netlify.app/images/portfolio/project_1_dt@1x.jpg">
+								    <h2 class="description__title"></h2>Технокряк</h2>
+									<p class="description__text">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item design">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="./images/project-img-2.jpg"
+											alt="Постер New Orlean vs Golden Star"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+									<div class="thumb__overlay">
+										<p class="overlay__text">
+											Ресурс пропонує комплексні пропозиції з різним рівнем
+											функціоналу та сервісів. Все це дозволить відвідувачу
+											отримати вичерпні відомості про компанію чи приватну
+											особу.
+										</p>
+									</div>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">
+										Постер New Orlean vs Golden Star
+									</h2>
+									<p class="description__text">Дизайн</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item apps">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="./images/project-img-3.jpg"
+											alt="Ресторан Seafood"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Ресторан Seafood</h2>
+									<p class="description__text">Додаток</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item marketing">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+									src="./images/project-img-4.jpg"
+									alt="Проєкт Prime"
+									width="450"
+									height="294"
+									loading="lazy"
+								/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Проєкт Prime</h2>
+									<p class="description__text">Маркетинг</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item apps">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="./images/project-img-5.jpg"
+											alt="Проєкт Boxes"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Проєкт Boxes</h2>
+									<p class="description__text">Додаток</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item web">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="./images/project-img-6.jpg"
+											alt="Inspiration has no Borders"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Inspiration has no Borders</h2>
+									<p class="description__text">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item design">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="./images/project-img-7.jpg"
+											alt="Видання Limited Edition"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Видання Limited Edition</h2>
+									<p class="description__text">Дизайн</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item marketing">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+											src="./images/project-img-8.jpg"
+											alt="Проєкт LAB"
+											width="450"
+											height="294"
+											loading="lazy"
+										/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Проєкт LAB</h2>
+									<p class="description__text">Маркетинг</p>
+								</div>
+							</a>
+						</li>
+						<li class="project__item card__set-item apps">
+							<a class="project__link link" href="">
+								<div class="project__thumb">
+									<img
+									src="./images/project-img-9.jpg"
+									alt="Growing Business"
+									width="450"
+									height="294"
+									loading="lazy"
+								/>
+								</div>
+								<div class="project__description">
+									<h2 class="description__title">Growing Business</h2>
+									<p class="description__text">Додаток</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer>
+			<div class="container container__footer">
+				<div class="container__address" id="contacts">
+					<a class='logo footer__logo link' href='/'>
+						Web
+						<span class="footer__logo--white">Studio</span>
+					</a>
+					<address class="footer__address">
+						<p class="address__text">м. Київ, пр-т Лесі Українки, 26</p>
+						<ul class="address__list list">
+							<li>
+								<a
+									href="mailto:info@devstudio.com"
+									class="address__link address__link--mail link"
+								>
+									info@devstudio.com
+								</a>
+							</li>
+							<li>
+								<a
+									href="tel:+380961111111"
+									class="address__link address__link--tel link"
+								>
+									+38 096 111 11 11
+								</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
